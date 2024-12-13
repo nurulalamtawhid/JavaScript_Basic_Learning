@@ -10,7 +10,12 @@ let email = "absds@hmail.com"
    
    after decalre a variable if we couldnot assigned its value ,the value will 
    remain undefined untill its defined a value.
+   
 
+   for decalare a variable In Js we have to follow some rules for naming the variable
+   which is Naming convention.(better to declare whole form to understand futher use or modification)
+   *Camel case(phoneNumber)
+   *Underscore(phone_number)
 
 */
 console.table([mobileNumber,email])/* learning some diiferent use of console */
