@@ -26,3 +26,29 @@ let y = false;
 let c = null;
 let d;/* gives undefined result */
 console.log(x)
+
+/* Data Type conversion */
+
+/*
+    If you wannna convert any kind of data type to others
+    just use that data type before then wrap it with the ones which 
+    will converted
+
+
+*/
+
+var a = 10;
+console.log(String(a));//this is a way by using constructor 
+console.log(a.toString());
+console.log(Boolean(a));
+console.log(Boolean(Infinity));
+
+/*If js - convert a infintiy to Bollean its return true 
+ Bcz js compiler imagine that infinity is a number .
+ For somecases js compiler compile some conversion by its own, but sometimes we have to 
+ change the default conversion for our needs.
+ from heres come the idea of truthy &  falsey value
+
+ the list of falsey valuees are - empty string,zero,null,nan,undefined.
+ Rest are the truthy values which compiles.
+*/
