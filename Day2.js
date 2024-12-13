@@ -38,10 +38,13 @@ console.log(x)
 */
 
 var a = 10;
+var b = 0x7234;// 0x use for declaring hexadecimal numbers
+let u = 0o756; //0o use for octal
 console.log(String(a));//this is a way by using constructor 
 console.log(a.toString());
 console.log(Boolean(a));
 console.log(Boolean(Infinity));
+console.log(u);
 
 /*If js - convert a infintiy to Bollean its return true 
  Bcz js compiler imagine that infinity is a number .
